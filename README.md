@@ -1,1 +1,1 @@
-# -photo-_lider_project
+# photo_slider_project
