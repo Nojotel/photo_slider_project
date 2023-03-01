@@ -1,0 +1,243 @@
+@font-face{
+  font-family: Nunito__R;
+  src: url(../fonts/NunitoSans-Regular.ttf);
+}
+@font-face{
+  font-family: Yeseva__R;
+  src: url(../fonts/YesevaOne-Regular.ttf);
+}
+html {
+  background-color: #131313;
+}
+.container {
+  height: 783px;
+  width: 1171px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.container__text {
+  
+}
+.headline {
+  display: flex;
+  align-items: center;
+  margin-bottom: 55px;
+}
+.headline__text {
+  font-family: Yeseva__R;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 37px;
+  letter-spacing: -0.07em;
+  text-transform: uppercase;
+  color: #E3B873;
+  width: 161px;
+  margin: 0;
+}
+.headline__line {
+  background: #E3B873;
+  width: 92px;
+  height: 1px;
+  margin-top: 40px;
+}
+.discription {
+  font-family: Nunito__R;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  color: #FFFFFF;
+  width: 442px;
+}
+.container__fact {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+  width: 360px;
+}
+.left__fact {
+}
+.city__container {
+}
+.city__zag {
+  font-family: Yeseva__R;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.city__text {
+  font-family: Nunito__R;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0;
+  position: fixed;
+  text-transform: capitalize;
+}
+.city__text.active{
+  opacity: 1;
+}
+.repair__container {
+}
+.repair__zag {
+  font-family: Yeseva__R;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-top: 85px;
+}
+.repair__text {
+  font-family: Nunito__R;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0;
+  position: fixed;
+  text-transform: capitalize;
+}
+.repair__text.active{
+  opacity: 1;
+}
+.right__fact {
+}
+.apartment__container {
+}
+.apartment__zag {
+  font-family: Yeseva__R;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+}
+.apartment__text {
+  font-family: Nunito__R;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0;
+  position: fixed;
+  text-transform: capitalize;
+}
+.apartment__text.active{
+  opacity: 1;
+}
+.cost__container {
+}
+.cost__zag {
+  font-family: Yeseva__R;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  color: #E3B873;
+  margin-top: 85px;
+  position: fixed;
+}
+.cost__text {
+  font-family: Nunito__R;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 21px;
+  color: #FFFFFF;
+  opacity: 0;
+  position: fixed;
+  text-transform: capitalize;
+}
+.cost__text.active{
+  opacity: 1;
+}
+.container__slider {
+  position: relative;
+  top: 80px;
+  width: 205px;
+}
+.array__left {
+}
+
+.array__right {
+}
+.container__image {
+ 
+}
+.container__tab {
+  display: flex;
+  justify-content: space-between;
+  width: 623px;
+  margin-bottom: 45px;
+}
+
+.tab__text {
+  font-family: Yeseva__R;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.3);
+  border-bottom: 2px solid #131313;
+  text-decoration: none;
+}
+.tab__text.active{
+  color: #E3B873;
+  border-bottom: 2px solid #E3B873;
+  padding-bottom:  6px;
+}
+.image {
+}
+
+.slider__images {
+  position: relative;
+  width: 679px;
+  height: 482px;
+}
+
+.slider__images .image {
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  transition: opacity 800ms ease;
+}
+
+.slider__images .image.active {
+  opacity: 1;
+}
+
+.slider__arrows {
+  display: flex;
+}
+.slider__arrows .left{
+  margin-right: 30px;
+}
+.slider__arrows .right{
+  margin-left: 30px;
+}
+.slider__dots {
+  display: flex;
+}
+
+.slider__dots-item {
+  width: 10px;
+  height: 10px;
+  margin: 0 12px;
+  cursor: pointer;
+  transition: background 0.4s ease;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 30px;
+}
+
+.slider__dots-item:hover, .slider__dots-item.active {
+  background: #FFFFFF
+}
